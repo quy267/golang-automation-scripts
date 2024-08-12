@@ -337,3 +337,9 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+/.idea/.gitignore
+/go.sum
+/.idea/golang-automation-scripts.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml

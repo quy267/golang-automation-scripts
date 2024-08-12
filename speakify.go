@@ -12,7 +12,7 @@ import (
 func main() {
 	pdf.DebugOn = true
 	// Initialize PDF reader
-	_, reader, err := pdf.Open("/home/quynguyen3/Desktop/OReilly.Concurrency.in.Go.2017.8.pdf")
+	_, reader, err := pdf.Open("OReilly.Concurrency.in.Go.2017.8.pdf")
 	if err != nil {
 		fmt.Println("Error reading PDF file:", err)
 		return
